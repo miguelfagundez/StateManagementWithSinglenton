@@ -1,6 +1,10 @@
-# flutter_state_management_singlenton
+# Flutter State Management Example - Singleton
 
-A new Flutter project.
+This is a basic example about how we can control our app state using only a Singleton pattern and StreamControllers. This approach is another option if the app has only few screens and few variables. However, if the app complexity is bigger then other approaches would be better such as providers or Bloc.
+
+<p align = "center">
+<img src="/images/Singlenton.gif" width="250"> <img src="/images/screen01.png" width="250"> <img src="/images/screen02.png" width="250">
+</p>
 
 ## Getting Started
 

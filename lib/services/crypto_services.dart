@@ -6,6 +6,14 @@ import 'dart:async';
 
 import 'package:flutter_state_management_singlenton/models/crypto_model.dart';
 
+//************************************************************
+// CryptoServices class
+// Author: Miguel Fagundez
+// Date: May, 27 2022
+// This is the singlenton class using factory
+// Using StreamControllers we can control which widgets we
+// want to update in the app
+//************************************************************
 class CryptoServices {
   static final CryptoServices _instance = CryptoServices._internal();
 

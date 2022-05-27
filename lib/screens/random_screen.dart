@@ -4,6 +4,14 @@ import 'dart:math';
 import '../services/crypto_services.dart';
 import 'package:flutter_state_management_singlenton/models/crypto_model.dart';
 
+//************************************************************
+// RandomScreen class
+// Author: Miguel Fagundez
+// Date: May, 27 2022
+// This is the second screen of the app
+// Every time user push the button, we need to update
+// the StreamController in our crypto services
+//************************************************************
 class RandomScreen extends StatelessWidget {
   const RandomScreen({Key? key}) : super(key: key);
 

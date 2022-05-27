@@ -2,6 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_state_management_singlenton/models/crypto_model.dart';
 import 'package:flutter_state_management_singlenton/services/crypto_services.dart';
 
+//************************************************************
+// HomeScreen class
+// Author: Miguel Fagundez
+// Date: May, 27 2022
+// This screen will show some crypto data
+// This way we can handle some basic management state if we
+// have just few screen and few variables in the app state
+//************************************************************
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
